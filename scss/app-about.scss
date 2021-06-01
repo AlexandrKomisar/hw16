@@ -1,0 +1,20 @@
+.app-about {
+  background: #00b1b1;
+
+  &.app-about__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &.app-about__title {
+    font-size: 90px;
+    color: #ffffff;
+  }
+
+  &.app-about__text {
+    width: 500px;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+}

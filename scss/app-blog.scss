@@ -1,0 +1,110 @@
+.app-blog {
+  background-color: #b07cf7;
+  font-family: "Raleway", sans-serif;
+
+  &.app-blog__header-title {
+    font-weight: 700;
+    font-size: 90px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  &.app-blog__text {
+    font-weight: 300;
+    font-size: 17px;
+    color: #ffffff;
+    margin: 0 50px 50px 50px;
+    text-align: center;
+  }
+
+  &.app-blog__flex-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &.app-blog__flex-parent-box1 {
+      width: 370px;
+      height: 310px;
+      color: white;
+      background: url(../img/kivi.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      box-shadow: 0px 2px 3px 0px #000000c4;
+      flex-wrap: wrap;
+      margin: 15px;
+
+      &.app-blog__flex-parent-box-date {
+        font-size: 25px;
+        font-weight: 700;
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        background: rgb(38, 38, 38);
+        opacity: 0.6;
+        text-align: center;
+        margin: 30px;
+      }
+
+      &.app-blog__flex-parent-box-date {
+        font-size: 25px;
+        font-weight: 700;
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        background: rgb(38, 38, 38);
+        opacity: 0.6;
+        text-align: center;
+        margin: 30px;
+      }
+    }
+
+    &.app-blog__flex-parent-box2 {
+      width: 370px;
+      height: 310px;
+      color: white;
+      background: url(../img/gor.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      box-shadow: 0px 2px 3px 0px #000000c4;
+      flex-wrap: wrap;
+      margin: 15px;
+    }
+
+    &.app-blog__flex-parent-box3 {
+      width: 370px;
+      height: 310px;
+      color: white;
+      background: url(../img/mal.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      box-shadow: 0px 2px 3px 0px #000000c4;
+      flex-wrap: wrap;
+      margin: 15px;
+
+      &.app-blog__flex-parent-box-text {
+        font-size: 17px;
+        margin: 130px 10px 0 10px;
+      }
+
+      &.app-blog__flex-parent-box-author {
+        font-size: 15px;
+        margin: 19px;
+      }
+    }
+  }
+
+  &.app-blog__btn {
+    text-align: center;
+    padding: 50px 0 120px 0;
+
+    &.app-blog__btn-item {
+      color: white;
+      font-size: 20px;
+      font-weight: 300;
+      width: 200px;
+      height: 55px;
+      background-color: #f72b3b;
+      box-shadow: 0px 2px 5px 0px #00000080;
+    }
+  }
+}

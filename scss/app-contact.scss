@@ -1,0 +1,67 @@
+.app-contact {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+  font-family: "Raleway", sans-serif;
+
+  &.app-contact__title {
+    padding-top: 170px;
+    text-align: center;
+
+    &.app-contact__title-item {
+      font-size: 90px;
+      font-weight: bold;
+    }
+  }
+  &.app-contact__text {
+    font-size: 17px;
+    font-weight: 300;
+  }
+
+  &.app-contact__form {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &.app-contact__form-item {
+      border: none;
+      background: #7fe1e1;
+      width: 400px;
+      height: 50px;
+    }
+
+    &.app-contact__form-item:hover,
+    .app-contact__form-item:focus {
+      background: #00c4c4;
+      outline: none;
+      border-left: #355b82 solid 5px;
+    }
+  }
+
+  &.app-contact__comment-item {
+    border: none;
+    background: #7fe1e1;
+    width: 400px;
+    height: 250px;
+  }
+  &.app-contact__comment-item:hover,
+  &.app-contact__comment-item:focus {
+    background: #00c4c4;
+    outline: none;
+    border-left: #355b82 solid 5px;
+  }
+
+  &.app-contact__info {
+    font-size: 17px;
+
+    &.app-contact__info-text {
+      font-weight: 300;
+    }
+    &.app-contact__info-text-bolt {
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.app-subscribe {
+  font-family: "Raleway", sans-serif;
+  background-image: url(../img/subscribe.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+
+  &.app-subscribe__content-title {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  &.app-subscribe__content-text {
+    font-size: 17px;
+    font-weight: 300;
+    width: 50%;
+  }
+
+  &.app-subscribe__content-form-item {
+    font-size: 10px;
+    height: 54px;
+    width: 500px;
+    padding: 0;
+  }
+
+  &.app-subscribe__content-btn {
+    background: #96b92c;
+    width: 170px;
+    height: 54px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+  }
+}

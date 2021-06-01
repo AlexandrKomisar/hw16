@@ -1,0 +1,45 @@
+.app-services {
+  background: #70bfff;
+  font-family: "Raleway", sans-serif;
+
+  &.app-services__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+
+    &.app-services__list-item {
+      width: 400px;
+      height: 100px;
+      background: #ffffff;
+      border: none;
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+      color: rgb(38, 38, 38);
+      font-weight: bold;
+      position: relative;
+      list-style-type: none;
+      text-align: center;
+      margin: 15px;
+      line-height: 5;
+
+      &.app-services__list-item-icon {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+      }
+    }
+
+    &.app-services__tomato {
+      position: relative;
+    }
+
+    &.app-services__title {
+      color: #ffffff;
+      font-size: 70px;
+      font-weight: 700;
+      position: absolute;
+      top: 200px;
+    }
+  }
+}
